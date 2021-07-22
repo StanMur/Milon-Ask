@@ -1,0 +1,13 @@
+.pictire__img-layer {
+    width: 430px;
+    z-index: 3;
+    position: absolute;
+    top: -4px;
+    left: -182px;
+}
+
+@media screen and (min-width: 0) and (max-width: 1919px) {
+    .pictire__img-layer {
+     display: none;
+    }
+  }

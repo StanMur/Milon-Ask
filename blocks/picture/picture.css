@@ -1,0 +1,20 @@
+.picture {
+  width: 670px;
+  position: relative;
+  margin: 0 0 0 210px;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1919px) {
+  .picture {
+    margin: 0 0 0 145px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .picture {
+    width: 100%;
+    margin: 0 auto;
+    min-height: 305px;
+    max-width: 320px;
+  }
+}

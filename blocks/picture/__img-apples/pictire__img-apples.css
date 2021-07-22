@@ -1,0 +1,30 @@
+.pictire__img-apples {
+  width: 180px;
+  height: 247px;
+  position: absolute;
+  right: -296px;
+  top: 223px;
+  z-index: 3;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1919px) {
+  .pictire__img-apples {
+    width: 147px;
+    height: 202px;
+    left: 255px;
+    top: 467px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .pictire__img-apples {
+    width: 72px;
+    height: 99px;
+    right: -23px;
+    top: -33px;
+    -webkit-transform: rotate(19.27deg);
+        -ms-transform: rotate(19.27deg);
+            transform: rotate(19.27deg);
+    z-index: 5;
+  }
+}

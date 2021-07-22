@@ -1,0 +1,24 @@
+.pictire__img-pack {
+  width: 241px;
+  height: 172px;
+  z-index: 10;
+  position: absolute;
+  top: 437px;
+  left: -159px;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1919px) {
+  .pictire__img-pack {
+    top: 461px;
+    left: -103px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .pictire__img-pack {
+    width: 102px;
+    height: 73px;
+    left: 109px;
+    top: 212px;
+  }
+}

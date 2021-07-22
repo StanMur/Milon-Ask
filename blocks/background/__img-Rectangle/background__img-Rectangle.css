@@ -1,0 +1,44 @@
+@media screen and (min-width: 1280px) and (max-width: 1919px) {
+  .background__img-Rectangle {
+    position: absolute;
+    width: 1227px;
+    height: 1052px;
+    left: 0;
+    top: -133px;
+
+    background: -o-linear-gradient(
+      197.5deg,
+      #e6a15c 24.39%,
+      rgba(219, 124, 70, 0) 51.18%
+    );
+
+    background: linear-gradient(
+      252.5deg,
+      #e6a15c 24.39%,
+      rgba(219, 124, 70, 0) 51.18%
+    );
+    -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+        -ms-transform: matrix(-1, 0, 0, 1, 0, 0);
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .background__img-Rectangle {
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    left: 0px;
+    top: 0px;
+    background: -o-linear-gradient(
+      271.64deg,
+      #f9b458 60.98%,
+      rgba(250, 178, 88, 0) 88.39%
+    );
+    background: linear-gradient(
+      178.36deg,
+      #f9b458 60.98%,
+      rgba(250, 178, 88, 0) 88.39%
+    );
+  }
+}

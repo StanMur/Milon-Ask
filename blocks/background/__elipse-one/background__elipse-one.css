@@ -1,0 +1,33 @@
+.background__elipse-one {
+  position: absolute;
+  width: 589px;
+  height: 589px;
+  left: 964px;
+  top: 408px;
+  background: -o-radial-gradient(
+    50% 50%,
+    50% 50%,
+    #faccbe 0%,
+    rgba(253, 116, 46, 0) 100%
+  );
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #faccbe 0%,
+    rgba(253, 116, 46, 0) 100%
+  );
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1919px) {
+  .background__elipse-one {
+    width: 589px;
+    height: 589px;
+    left: 193px;
+    top: 384px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .background__elipse-one {
+    display: none;
+  }
+}

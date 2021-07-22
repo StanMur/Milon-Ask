@@ -1,0 +1,33 @@
+.background__elipse-four {
+  position: absolute;
+  width: 484px;
+  height: 1289px;
+  left: 975px;
+  top: -668px;
+  background: -o-radial-gradient(
+    51.97% 51.97%,
+    45.6% 45.6%,
+    #fbb05b 13.33%,
+    rgba(253, 116, 46, 0) 100%
+  );
+  background: radial-gradient(
+    45.6% 45.6% at 51.97% 51.97%,
+    #fbb05b 13.33%,
+    rgba(253, 116, 46, 0) 100%
+  );
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1919px) {
+  .background__elipse-four {
+    width: 1387px;
+    height: 1387px;
+    left: -214px;
+    top: -830px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .background__elipse-four {
+    display: none;
+  }
+}

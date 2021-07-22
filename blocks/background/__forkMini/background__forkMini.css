@@ -1,0 +1,14 @@
+@media screen and (min-width: 1280px) {
+  .background__forkMini {
+      display: none;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+.background__forkMini {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  top: 152px;
+}
+}

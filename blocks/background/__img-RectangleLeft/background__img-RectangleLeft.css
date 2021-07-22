@@ -1,0 +1,11 @@
+.background__img-RectangleLeft {
+  z-index: 0;
+  width: 65%;
+  height: 936px;
+}
+
+@media screen and (max-width: 1919px) {
+  .background__img-RectangleLeft {
+    display: none;
+  }
+}

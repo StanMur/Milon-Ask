@@ -1,0 +1,25 @@
+.background__img-apricotANDapples {
+  position: absolute;
+  right: -133px;
+  top: -16px;
+  z-index: -1;
+  width: 69%;
+  height: 1138px;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1919px) {
+  .background__img-apricotANDapples {
+    position: absolute;
+    right: 0px;
+    top: -210px;
+    z-index: -1;
+    width: 100%;
+    height: 1183px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .background__img-apricotANDapples {
+    display: none;
+  }
+}

@@ -1,0 +1,22 @@
+.description__subtitle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 147.2%;
+  color: #ffffff;
+  margin: 46px 0 0 0;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1919px) {
+  .description__subtitle {
+    margin: 58px 0 0 0;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .description__subtitle {
+    font-size: 16px;
+    line-height: 142.7%;
+    margin: 32px 0px 0 11px;
+  }
+}

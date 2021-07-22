@@ -1,0 +1,15 @@
+.pictire__img-seed-face3 {
+  position: absolute;
+  right: -138px;
+  bottom: 35px;
+  -webkit-transform: rotate(-15deg);
+      -ms-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+  z-index: 3;
+}
+
+@media screen and (min-width: 0) and (max-width: 1919px) {
+  .pictire__img-seed-face3 {
+   display: none;
+  }
+}

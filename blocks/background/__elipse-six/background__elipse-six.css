@@ -1,0 +1,47 @@
+.background__elipse-six {
+  position: absolute;
+  width: 1168px;
+  height: 1168px;
+  left: -381px;
+  top: -228px;
+  background: -o-radial-gradient(
+    50% 50%,
+    50% 50%,
+    #e6a15e 0%,
+    rgba(253, 116, 46, 0) 100%
+  );
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #e6a15e 0%,
+    rgba(253, 116, 46, 0) 100%
+  );
+}
+
+@media screen and (min-width: 1280) and (max-width: 1919px) {
+  .background__elipse-six {
+    width: 1168px;
+    height: 1168px;
+    left: -792px;
+    top: -252px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .background__elipse-six {
+    width: 417px;
+    height: 417px;
+    left: 42px;
+    top: 104px;
+    background: -o-radial-gradient(
+      50.05% 48.21%,
+      51.79% 51.79%,
+      #da7b45 0%,
+      rgba(253, 116, 46, 0) 89.37%
+    );
+    background: radial-gradient(
+      51.79% 51.79% at 50.05% 48.21%,
+      #da7b45 0%,
+      rgba(253, 116, 46, 0) 89.37%
+    );
+  }
+}

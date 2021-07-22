@@ -1,0 +1,30 @@
+.pictire__img-two-seed {
+  width: 117px;
+  position: absolute;
+  left: 175px;
+  bottom: -7px;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1919px) {
+  .pictire__img-two-seed {
+    width: 121px;
+    height: 182px;
+    left: 91px;
+    top: 333px;
+    z-index: 5;
+    -webkit-transform: rotate(38deg);
+        -ms-transform: rotate(38deg);
+            transform: rotate(38deg);
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .pictire__img-two-seed {
+    height: 93px;
+    left: -46px;
+    top: 118px;
+    -webkit-transform: rotate(-20deg);
+        -ms-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+  }
+}

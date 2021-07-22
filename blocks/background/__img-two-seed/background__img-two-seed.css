@@ -1,0 +1,15 @@
+.background__img-two-seed {
+  position: absolute;
+  left: -41px;
+  top: 128px;
+  -webkit-transform: rotate(41deg);
+  -ms-transform: rotate(41deg);
+  transform: rotate(41deg);
+  z-index: 3;
+}
+
+@media screen and (max-width: 1919px) {
+  .background__img-two-seed {
+    display: none;
+  }
+}

@@ -1,0 +1,13 @@
+@media screen and (min-width: 1280px) {
+  .background__img-apricotANDapples3 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .background__img-apricotANDapples3 {
+    width: 100%;
+    top: 123px;
+    height: 765px;
+  }
+}

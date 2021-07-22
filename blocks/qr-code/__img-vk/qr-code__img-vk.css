@@ -1,0 +1,22 @@
+.qr-code__img-vk {
+  width: 72px;
+  height: 43px;
+  padding: 10px 0 33px 0;
+  cursor: pointer;
+  -webkit-transition: 300ms ease-in-out;
+  -o-transition: 300ms ease-in-out;
+  transition: 300ms ease-in-out;
+}
+
+.qr-code__img-vk:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 1279px) {
+  .qr-code__img-vk {
+    width: 41px;
+    height: 23px;
+    color: #fbe7d6;
+    padding: 0;
+  }
+}

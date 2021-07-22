@@ -1,0 +1,27 @@
+.content-blocks {
+  position: relative;
+  padding-top: 68px;
+  width: 1398px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1919px) {
+  .content-blocks {
+    width: 1280px;
+    padding-top: 53px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .content-blocks {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 30px;
+  }
+}

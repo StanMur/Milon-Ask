@@ -1,0 +1,28 @@
+.background__img-seed-face4 {
+  position: absolute;
+  left: 47px;
+  bottom: 393px;
+  -webkit-transform: rotate(-8deg);
+      -ms-transform: rotate(-8deg);
+          transform: rotate(-8deg);
+  z-index: 3;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1919px) {
+  .background__img-seed-face4 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .background__img-seed-face4 {
+    position: absolute;
+    left: 244px;
+    bottom: 91px;
+    width: 53px;
+    -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+            transform: rotate(0deg);
+    z-index: 10;
+  }
+}

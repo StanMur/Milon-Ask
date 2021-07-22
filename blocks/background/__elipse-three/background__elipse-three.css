@@ -1,0 +1,33 @@
+.background__elipse-three {
+  position: absolute;
+  width: 750px;
+  height: 911px;
+  left: 1438px;
+  top: 460px;
+  background: -o-radial-gradient(
+    50.05% 48.21%,
+    51.79% 51.79%,
+    #da7b45 0%,
+    rgba(253, 116, 46, 0) 88.85%
+  );
+  background: radial-gradient(
+    51.79% 51.79% at 50.05% 48.21%,
+    #da7b45 0%,
+    rgba(253, 116, 46, 0) 88.85%
+  );
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1919px) {
+  .background__elipse-three {
+    width: 787px;
+    height: 787px;
+    left: -11px;
+    top: 85px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .background__elipse-three {
+    display: none;
+  }
+}

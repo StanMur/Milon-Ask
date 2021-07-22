@@ -1,0 +1,22 @@
+.qr-code__img-telegram {
+  width: 54px;
+  height: 44px;
+  padding: 10px 0 33px 0;
+  cursor: pointer;
+  -webkit-transition: 300ms ease-in-out;
+  -o-transition: 300ms ease-in-out;
+  transition: 300ms ease-in-out;
+}
+
+.qr-code__img-telegram:hover {
+opacity: 0.6;
+}
+
+@media screen and (max-width: 1279px) {
+  .qr-code__img-telegram {
+    width: 30px;
+    height: 25px;
+    color: #FBE7D6;
+    padding: 0;
+  }
+}

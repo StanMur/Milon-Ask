@@ -1,0 +1,33 @@
+.background__elipse-two {
+  position: absolute;
+  width: 800px;
+  height: 887px;
+  left: 807px;
+  top: 304px;
+  background: -o-radial-gradient(
+    50.05% 48.21%,
+    51.79% 51.79%,
+    #f49663 30.97%,
+    rgba(253, 116, 46, 0) 100%
+  );
+  background: radial-gradient(
+    51.79% 51.79% at 50.05% 48.21%,
+    #f49663 30.97%,
+    rgba(253, 116, 46, 0) 100%
+  );
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1919px) {
+  .background__elipse-two {
+    width: 589px;
+    height: 589px;
+    left: 600px;
+    top: 500px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .background__elipse-two {
+    display: none;
+  }
+}

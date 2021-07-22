@@ -1,0 +1,20 @@
+.description__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 126.2%;
+  color: #ffffff;
+  margin: 104px 0 0 0;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1919px) {
+  .description__text {
+    margin: 88px 0 0 0;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .description__text {
+    display: none;
+  }
+}

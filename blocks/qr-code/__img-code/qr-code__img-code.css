@@ -1,0 +1,10 @@
+.qr-code__img-code {
+  width: 116px;
+}
+
+@media screen and (max-width: 1279px) {
+  .qr-code__img-code {
+    display: none;
+  }
+}
+

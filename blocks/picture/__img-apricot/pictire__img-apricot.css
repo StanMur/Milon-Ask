@@ -1,0 +1,13 @@
+.pictire__img-apricot {
+  position: absolute;
+  right: -246px;
+  top: -111px;
+  z-index: 3;
+  width: 278px;
+}
+
+@media screen and (min-width: 0) and (max-width: 1919px) {
+  .pictire__img-apricot {
+    display: none;
+  }
+}

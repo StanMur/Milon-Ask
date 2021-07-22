@@ -1,0 +1,20 @@
+.background__fork {
+  position: absolute;
+  top: 336px;
+  left: -9px;
+  z-index: 5;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1919px) {
+  .background__fork {
+    top: 330px;
+    height: 57px;
+    left: -192px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .background__fork {
+    display: none;
+  }
+}

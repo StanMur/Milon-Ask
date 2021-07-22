@@ -1,0 +1,5 @@
+@media screen and (max-width: 1279px) {
+  .qr-code__txt_up {
+    margin-top: -8px;
+  }
+}

@@ -1,0 +1,16 @@
+.description__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  color: #fff;
+  line-height: 126.2%;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .description__title {
+    font-size: 22px;
+    padding-left: 12px;
+  }
+}

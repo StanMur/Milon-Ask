@@ -1,0 +1,24 @@
+.description__img-lightning {
+  width: 43px;
+  height: 73px;
+  position: absolute;
+  right: 6px;
+  top: -38px;
+  z-index: 3;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1919px) {
+  .description__img-lightning {
+   display: none;
+  }
+}
+
+
+@media screen and (max-width: 1279px) {
+  .description__img-lightning {
+    width: 39px;
+    height: 67px;
+    left: 25px;
+    top: 469px;
+  }
+}

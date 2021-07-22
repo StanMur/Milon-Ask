@@ -1,0 +1,28 @@
+.qr-code {
+  width: 83%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1919px) {
+  .qr-code {
+    width: 85%;
+    padding-top: 30px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .qr-code {
+    width: 90%;
+    padding-top: 22px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+  }
+}
